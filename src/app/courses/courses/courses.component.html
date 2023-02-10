@@ -1,3 +1,10 @@
+<mat-card>
+    
+    <mat-card-content>
+        <mat-toolbar color="primary">
+            <span>Cursos disponíveis</span>
+        </mat-toolbar>
+
 <table mat-table [dataSource]="courses" class="mat-elevation-z8">
 
     <!--- Note that these columns can be defined in any order.
@@ -19,4 +26,5 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
   
-  
+</mat-card-content>
+</mat-card>
